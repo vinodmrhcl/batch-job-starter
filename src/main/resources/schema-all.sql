@@ -1,0 +1,7 @@
+DROP TABLE reconds IF EXISTS;
+
+CREATE TABLE records  (
+    id BIGINT IDENTITY NOT NULL PRIMARY KEY,
+    field1 VARCHAR(20),
+    field2 VARCHAR(20)
+);
